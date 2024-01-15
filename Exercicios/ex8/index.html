@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica</title>
+</head>
+<body>
+    <h1>Midias de imagens dinamicas</h1>
+    <p>Tentar abrir em dispositivos diferentes e ver como fica</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Furia_Esports_logo1.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/Furia_Esports_logo22.png" type="image/png">
+        
+
+        <img src="imagens/Furia_Esports_logo3.png" alt="imagem 1">
+    </picture>
+    
+    <h1>Reproduzinfo Audios</h1>
+    <h2>Vamos aprender a reproduzir audios no HTML5</h2>
+         
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/happy mistake.mp3.part" type="audio/mpeg">    
+    </audio>
+
+       <h1>Inserindo videos hospedados localmente</h1>
+       <h2>hospedado no meu proprio servidor</h2>
+       <p>Cuidado com o consumo de banda ao hospedar videos em alta resolução sem seu servidor, pode acabar gastando mais do que deve </p>
+
+       <video controls loop width="560">
+
+        <source src="video/Meu Video720f.mp4" type="video/mp4">
+
+       </video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d95PPykB2vE?si=3rh23KSSZYiWtgjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
+

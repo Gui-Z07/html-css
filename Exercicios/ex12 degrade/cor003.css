@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+
+body{
+
+    background-image: linear-gradient(to right, #F1D8C9, #f2c3a7);
+
+}
+
+Main{
+
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px #8c6149;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: #075906;
+}
+
+div{
+    
+    display: inline-block;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    color: #000000;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1em;
+    height: 150px;
+    width: 150px;
+
+}
+
+    div:hover{
+    background-color: #20a4c5;
+
+    
+}
+h1{
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 0px #8c6149;
+    font-family: 'October Crow';
+    font-size: 2.4em;
+    background-color: #b3c5e0;
+    border-radius: 10px;
+   
+}
+
+h1#principal{
+
+    color: #f14b19;
+    background-color: #b3c5e0;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+h2{
+    color: #20bde4;
+    font-family: 'Courier New';
+    font-size: 1.7em;
+    font-weight: 500;
+    text-shadow: 1px 1px 0px #20a4c5;
+ 
+}
+
+h2.Basico{
+
+    color: #075906;
+    background-color: rgb(209, 202, 219);
+    border-radius: 10px;
+        
+}
+
+p{    
+   font: bolder 1.2em "Work scens";
+   text-align: justify;
+   text-indent: 20px;
+
+}
+
+footer{
+    
+    text-align: center;
+    text-align:justify;   
+    background-color: white;
+    border-radius: 20px; 
+
+    
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: #075906;
+   
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+a:visited{
+
+    color: darkred;
+}
+
+a:hover {
+
+    text-decoration: underline;
+    color: black;
+}
+a:active{
+
+    color: aqua;
+}
+
+.especial::before{
+    content: '(links)';
+    font-weight: normal;
+    text-decoration: none;
+    color: darkred;
+    background-color: rgb(156, 151, 151);
+    border-radius: 5px;
+    
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: #075906;
+}
+
+.especial:after{
+    content: '(links)';
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(241, 217, 217);
+    background-color: rgb(42, 38, 38);
+    border-radius: 5px;
+}
+
