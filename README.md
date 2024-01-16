@@ -1,2 +1,5 @@
 # html-css
- Estudos Html5 e Css3, Curso em video
+ Estudos curso Html5 e Css3, Curso em video, Professor Gustavo Guanabara
+ -Sites e repositório
+
+
