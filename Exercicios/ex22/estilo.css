@@ -1,67 +1,20 @@
-body{
-    background-image: url('imagens/floresta\ header.jpg');
-    
-    margin: 0;
-    padding: 0;
+div.bloco{
+    background-image: url('imagens/wallpaper003.jpg');
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px 10px;
+    margin: 10px;
 }
 
-header {
-    
-    margin: auto;
-    padding-top: 40px;
-    border: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    min-height: 150px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+div#q1{
+    background-position: left top;
 }
-
-main {
-
-    padding: 20px;
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.475);
-    border-radius: 20px 0px;
-    margin: auto;
-    margin: 10px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: green;
+div#q2{
+    background-position: left center ;
 }
-
-.arvores {
-    width: 300px;
-    height: 350px;
-    margin: auto; /* Defina a largura desejada para cada div */
-    margin: 10px 10px;
-    padding: 20px; 
-    border-radius: 10%;
-    max-width: 800px;
-
-   
-     /* Adiciona bordas arredondadas à div */
-        
+div#q3{
+        background-position: right bottom  ;
 }
-
-img {
-    width: 100%;
-    height: auto;
+div#q4{
+    background-position: center center;
 }
-
-footer{
-    background-color: green;
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
-}
-
-    footer h1{
-      
-            color: white;
-            font-weight: bolder;
-            text-decoration: none;
-          }
-    
