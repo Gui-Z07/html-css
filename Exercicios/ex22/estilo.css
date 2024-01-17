@@ -1,0 +1,67 @@
+body{
+    background-image: url('imagens/floresta\ header.jpg');
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    margin: auto;
+    padding-top: 40px;
+    border: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 150px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+main {
+
+    padding: 20px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.475);
+    border-radius: 20px 0px;
+    margin: auto;
+    margin: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.arvores {
+    width: 300px;
+    height: 350px;
+    margin: auto; /* Defina a largura desejada para cada div */
+    margin: 10px 10px;
+    padding: 20px; 
+    border-radius: 10%;
+    max-width: 800px;
+
+   
+     /* Adiciona bordas arredondadas à div */
+        
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+    footer h1{
+      
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+          }
+    
