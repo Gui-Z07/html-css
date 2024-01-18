@@ -80,27 +80,24 @@ section{
    
 }
 
+section.normal{
+    background-color: darkslategray ;
+}
+
 section.normal p{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.509);
     border-radius: 10px;/*reduzir caixa onde esta a color*/
     text-indent: 10px;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.435);
     padding-left: 10px;
     text-align: justify;
     font-style: italic;
   
 }
 
-section.normal{
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.531);
-    background-size: 100% 100%;
-    /* PARALAX DAS IMAGENS*/
-    background-attachment: fixed;
-
-}
 
 section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.531);
@@ -123,11 +120,7 @@ section.imagem p{
     font-style: italic;
 }
 
-section#normal001{
-    background-image: url('imagens/aLOGO\ 1.jpg');
-    background-position: center center;
-   
-}
+
 
 section#img001{
     background-image: url('imagens/bring-me-the-horizon-.jpg');
@@ -136,22 +129,11 @@ section#img001{
 
 }
 
-section#normal002{
-    background-image: url('imagens/img\ 1\ three\ days\ grace.jpg');
-    background-position: center center;
-   
-}
 
 section#img002{
     background-image: url('imagens/Three-Days-Grace_Artefakt.jpeg');
     background-position: center center;
     
-}
-
-section#normal003{
-    background-image: url('imagens/guys-winchester-sam-supernatural-wallpaper-preview.jpg');
-    background-position: center center;
-   
 }
     
 
@@ -160,8 +142,6 @@ section#img003{
     background-position: right center;
    
 }
-
-    
 
 
 footer{
