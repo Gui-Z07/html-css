@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Rock';
+    src: url('font/NewRocker-Regular.otf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    
+    background-color: rgba(0, 0, 0, 0.971);
+    font-family: 'Rock';
+    text-align: center;
+    text-shadow: white;   
+    color: white;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+header > h1{
+    margin: auto;
+    padding: 25px;
+    text-transform: uppercase; 
+}
+
+header p{
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+   text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+header a:hover, footer a:hover{
+
+    border: 1px solid white;
+    background-color: blueviolet;
+    border-radius: 10px 0px;
+    border-color: rgb(255, 255, 255);
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+section{
+    text-indent: 15px;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+
+}
+.normal{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+section.imagem p{
+    background-color: black;
+    width: 400px; /*reduzir color*/
+}
+
+.imagem{
+    background-color: aqua;
+    color: white;
+
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
