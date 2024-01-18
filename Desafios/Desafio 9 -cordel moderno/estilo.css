@@ -5,9 +5,19 @@
     src: url('font/NewRocker-Regular.otf') format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
@@ -19,59 +29,62 @@ header{
     color: white;
     margin: auto;
     padding: 10px;
+    background-image: url('imagens/labaredas2.jpg') ;
     
 }
 
 header > h1{
     margin: auto;
-    padding: 25px;
+    padding: 30px;
     text-transform: uppercase; 
+    font-size: 2.8em;
+   
 }
 
 header p{
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    font-size: 0.95em;
+    font-style: italic;
 }
 
 header a, footer a{
-   text-decoration: none;
+    text-decoration: none;
     color: white;
     font-weight: bolder;
+    
 }
 
 
 header a:hover, footer a:hover{
 
-    border: 1px solid white;
-    background-color: blueviolet;
+    border: 2px solid white;
+    background-color: rgb(241, 89, 33); 
+    padding-right: 7px;
     border-radius: 10px 0px;
     border-color: rgb(255, 255, 255);
+   
 }
 
-
-body{
-    min-height: 100vh;
-    background-color: lightgray;
-}
 
 section{
     text-indent: 15px;
-    padding-top: 10vh;
-    padding-left: 30px;
+    padding-top: 10vh;/*deser texto*/
+    padding-left: 30px;/*tirar do canto da tela*/
     padding-bottom: 10vh;
-    line-height: 2em;
-
+    line-height: 2em; /*separar linhas*/
+    font-family: 'Sriracha', cursive;
+    font-size: 1.4em;
+   
 }
 .normal{
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
 
 }
 
 section.imagem p{
     background-color: black;
-    width: 400px; /*reduzir color*/
+    display: inline-block;/*reduzir caixa onde esta a color*/
 }
 
 .imagem{
