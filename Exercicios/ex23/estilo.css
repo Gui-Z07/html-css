@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+table{
+    width: 100%;
+    max-width: 1000px;
+    display: table-cell;
+    border-collapse: collapse;
+    padding: 10px;
+    
+
+}
+      
+
+td{
+    font-size: 1em;
+    text-align: center;
+    padding: 8px;
+    white-space: nowrap;
+    overflow-x: auto;
+
+}
+
+tr{
+    border: 1px solid lightgray;
+    margin: auto;
+   
+}
+
+.icon-escudos{
+    margin: auto;
+    height: 20px;
+    margin-right: 5px;
+    top: -1px;
+    height: 26px;
+    max-height: none;
+    border-collapse: separate;
+    padding-right: 10px;
+    vertical-align: middle;
+
+    }
+
+#libertadores{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#pre-libertadores{
+    color: rgb(39, 169, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#sulamericana{
+    color: rgba(12, 197, 12, 0.941);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+
+}
+
+#manteve{
+    color: rgb(122, 119, 119);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+
+}
+
+#rebaixados{
+    color: rgba(139, 0, 0, 0.872);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1em;
+
+}
+
+#times{
+    margin: auto;
+    text-align: left;
+    padding-right: 100px;
+    padding-left: 15px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #times {
+        padding-right: 25px;
+        padding-left: 8px;
+    }
+
+    td {
+        font-size: 0.9em;
+        padding: 4px;
+        white-space: normal;
+        overflow-x: visible;
+    }
+
+    #libertadores,#pre-libertadores,#sulamericana,#manteve,#rebaixados {
+        padding: 8px;
+        
+    }
+}
