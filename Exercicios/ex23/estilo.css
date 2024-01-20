@@ -7,6 +7,11 @@ body{
     
 }
 
+thead{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
 table{
     width: 100%;
     max-width: 1000px;
@@ -99,21 +104,27 @@ tr{
 
 @media screen and (max-width: 600px) {
 
+    thead{
+        
+        padding: 5px;
+    }
+
 
     #times {
-        padding-right: 25px;
+        padding-right: 13px;
         padding-left: 8px;
     }
 
     td {
-        font-size: 0.9em;
-        padding: 4px;
+        font-size: 0.8em;
+        padding: 3px;
         white-space: normal;
         overflow-x: visible;
+        font-weight: bold;
     }
 
     #libertadores,#pre-libertadores,#sulamericana,#manteve,#rebaixados {
-        padding: 8px;
+        padding: 7px;
         
     }
 }
