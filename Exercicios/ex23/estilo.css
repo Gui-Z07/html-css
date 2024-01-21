@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
 body{
@@ -19,6 +21,7 @@ caption{
     text-align: center;
 }
 
+
 thead{
     font-family: 'Poppins', sans-serif;
     padding: 5px 10px 10px 5px;
@@ -38,7 +41,7 @@ table{
 }
       
 
-td{
+tbody td{
     font-size: 1em;
     text-align: center;
     padding: 8px;
@@ -47,10 +50,15 @@ td{
 
 }
 
-tr{
+tbody tr{
     border: 1px solid lightgray;
     margin: auto;
    
+}
+
+.pontos{
+    background-color: lightgray;
+    
 }
 
 .icon-escudos{
@@ -126,28 +134,27 @@ tr{
         font-size: 1.7em;
     }
 
-    thead{
+    tbody thead{
         
         padding: 5px;
     }
 
 
     #times {
-        padding-right: 13px;
+        padding-right: 8px;
         padding-left: 8px;
     }
 
-    td {
-        font-size: 0.8em;
-        padding: 3px 3px;
-        white-space: normal;
+    tbody td {
+        font-size: 0.9em;
+        padding: 3px;
         overflow-x: visible;
         font-weight: bold;
         
     }
 
     #libertadores,#pre-libertadores,#sulamericana,#manteve,#rebaixados {
-        padding: 7px;
+        padding: 5px;
         
     }
 }
