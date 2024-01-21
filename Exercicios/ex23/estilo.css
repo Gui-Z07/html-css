@@ -23,22 +23,12 @@ caption{
     text-align: center;
 }
 
-
-thead{
-    font-family: 'Poppins', sans-serif;
-    padding: 5px 10px 10px 5px;
-    margin: auto;
-   
-}
-
-
 table{
     width: 100%;
     max-width: 1000px;
     display: table-cell;
     border-collapse: collapse;
     padding: 10px;
-    
 
 }
       
@@ -48,14 +38,13 @@ tbody td{
     text-align: center;
     padding: 8px;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: auto; 
 
 }
 
-tbody tr{
+tr{
     border: 1px solid lightgray;
-    margin: auto;
-   
+    
 }
 
 .pontos{
@@ -144,11 +133,10 @@ body {
     }
 
     table {
-    
- 
         width: 100vh;
         border-collapse: collapse;
         overflow-x: auto;
+        padding: 35px;
     }
 
     tbody thead{
