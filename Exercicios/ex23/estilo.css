@@ -47,6 +47,9 @@ tr{
     border: 1px solid lightgray;
     
 }
+col.cj{
+    background-color: aqua;
+}
 
 .pontos{
     background-color: lightgray;
