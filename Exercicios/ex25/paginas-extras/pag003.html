@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+        body{
+            font-family:'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        h1{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.7em;
+            margin: auto;
+            margin: 5px;
+             
+        }
+        
+        caption{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1em;
+            text-align: center;
+        }
+        
+        table{
+            width: 100%;
+            max-width: 1000px;
+            display: table-cell;
+            border-collapse: collapse;
+            padding: 10px;
+        
+        }
+              
+        
+        tbody td{
+            font-size: 1em;
+            text-align: center;
+            padding: 8px;
+            white-space: nowrap;
+            overflow-x: auto;
+        
+        }
+        
+        tr{
+            border: 1px solid lightgray;
+            
+        }
+        col.cj{
+            background-color: aqua;
+        }
+        
+        .pontos{
+            background-color: lightgray;
+            
+        }
+        
+        .icon-escudos{
+            margin: auto;
+            height: 20px;
+            margin-right: 5px;
+            top: -1px;
+            height: 26px;
+            max-height: none;
+            border-collapse: separate;
+            padding-right: 10px;
+            vertical-align: middle;
+        
+            }
+        
+        #libertadores{
+            color: blue;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1em;
+        }
+        
+        #pre-libertadores{
+            color: rgb(39, 169, 255);
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1em;
+        }
+        
+        #sulamericana{
+            color: rgba(12, 197, 12, 0.941);
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1em;
+        
+        }
+        
+        #manteve{
+            color: rgb(122, 119, 119);
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1em;
+        
+        }
+        
+        #rebaixados{
+            color: rgba(139, 0, 0, 0.872);
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1em;
+        
+        }
+        
+        #times{
+            margin: auto;
+            text-align: left;
+            padding-right: 100px;
+            padding-left: 15px;
+            font-size: 1em;
+        }
+        
+        
+        @media screen and (max-width: 700px) {
+          
+            body {
+            padding-right: 10px;
+            overflow-x: hidden;
+            }
+        
+        
+            h1{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.7em;
+            }
+        
+            table {
+                width: 100vh;
+                border-collapse: collapse;
+                overflow-x: auto;
+                padding: 35px;
+            }
+        
+            tbody thead{
+                
+                padding: 5px;
+            }
+        
+        
+            #times {
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+        
+            tbody td {
+                font-size: 0.9em;
+                padding: 3px;
+                overflow-x: visible;
+                font-weight: bold;
+                white-space: nowrap;
+                
+            }
+        
+            #libertadores,#pre-libertadores,#sulamericana,#manteve,#rebaixados {
+                padding: 5px;
+                
+            }
+        }</style>
+
+</head>
+<body>
+    <h1> Classificação Campeonato Brasileiro 2023 - 1 Divisão</h1>
+  
+
+    <table>
+
+        <caption>Tabela 38º Rodada</caption>
+
+        <thead> 
+          <!--Todo th sempre tem escopo-->
+          <tr>
+            <th style="text-align: left;" colspan="2" scope="col">Posição</th>
+            <th scope="col">PTS</th>
+            <th scope="col">J</th>
+            <th scope="col">V</td>
+            <th scope="col">E</th>
+            <th scope="col">D</th>
+            <th scope="col">Gp</th>
+            <th scope="col">Gc</th>
+            <th scope="col">SG</th>
+            <th scope="col">%</th>
+          </tr>
+        
+        </thead>
+
+         <tbody>
+
+        <tr>
+          <td id="libertadores">1º</td>
+
+          <td id="times"> <img src="imgs/palmeiras.jpg" alt="" class="icon-escudos">Palmeiras </td>
+
+          <td class="pontos" style="font-weight: bolder" >70</td>
+          <td>38</td>
+          <td class="pontos">20</td>
+          <td>10</td>
+          <td class="pontos">8</td>
+          <td>64</td>
+          <td class= "pontos">33</td>
+          <td>31</td>
+          <td class= "pontos">61</td>
+        </tr>
+
+        <tr>
+            <td id="libertadores">2º</td>
+            <td id="times"> <img src="imgs/gremio.jpg" alt="" class="icon-escudos">Grêmio</td>
+            <td class="pontos" style="font-weight: bolder" >68</td>
+            <td>38</td>
+            <td class="pontos">21</td>
+            <td>5</td>
+            <td class="pontos">12</td>
+            <td>63</td>
+            <td class="pontos">56</td>
+            <td>7</td>
+            <td class="pontos">59</td>
+          </tr>
+          <tr>
+
+            <td id="libertadores">3º</td>
+            <td id="times"> <img src="imgs/atl mineiro.jpg" alt="" class="icon-escudos">Atlético - MG</td>
+            <td class="pontos"  class="pontos" style="font-weight: bolder">66</td>
+            <td>38</td>
+            <td class="pontos">19</td>
+            <td>9</td>
+            <td class="pontos">10</td>
+            <td>52</td>
+            <td class="pontos">32</td>
+            <td>20</td>
+            <td class="pontos">57<td>
+          </tr>
+
+          <tr>
+            <td id="libertadores" >4º</td>
+            <td id="times"> <img src="imgs/flamengo.jpg" alt="" class="icon-escudos">Flamengo </td>
+            <td  class="pontos" style="font-weight: bolder" >66</td>
+            <td >38</td>
+            <td class="pontos">19</td>
+            <td >9</td>
+            <td class="pontos">10</td>
+            <td >56</td>
+            <td class="pontos">42</td>
+            <td>14</td> 
+            <td class="pontos">57</td>
+          </tr>
+
+          <tr>
+            <td id="pre-libertadores">5º</td>
+            <td id="times"> <img src="imgs/botafogo.jpg" alt="" class="icon-escudos">Botafogo </td>
+            <td class="pontos"  style="font-weight: bolder" >64</td>
+            <td>38</td>
+            <td class="pontos">18</td>
+            <td>10</td>
+            <td class="pontos">10</td>
+            <td>58</td>
+            <td class="pontos">37</td>
+            <td>21</td>
+            <td class="pontos">56</td>
+          </tr>
+
+          <tr>
+            <td id="pre-libertadores">6º</td>
+            <td id="times"> <img src="imgs/bragantino.jpg" alt="" class="icon-escudos">RB Bragantino</td>
+            <td  class="pontos" style="font-weight: bolder">62</td>
+            <td>38</td>
+            <td class="pontos">17</td>
+            <td>11</td>
+            <td class="pontos">10</td>
+            <td>49</td>
+            <td class="pontos">35</td>
+            <td>14</td>
+            <td class="pontos">54</td>
+          </tr>
+
+          <tr>
+            <td id="libertadores">7º</td>
+            <td id="times"> <img src="imgs/fluminense.jpg" alt="" class="icon-escudos">Fluminense</td>
+            <td  class="pontos" style="font-weight: bolder">56</td>
+            <td>38</td>
+            <td class="pontos">16</td>
+            <td>8</td>
+            <td class="pontos">14</td>
+            <td>51</td>
+            <td class="pontos">47</td>
+            <td>4</td>
+            <td class="pontos">49</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">8º</td>
+            <td id="times"> <img src="imgs/atl parana.jpg" alt="" class="icon-escudos">Athlético - PR</td>
+            <td  class="pontos" style="font-weight: bolder">56</td> 
+            <td>38</td>
+            <td class="pontos">14</td>
+            <td>14</td> 
+            <td class="pontos">10</td>
+            <td>51</td>
+            <td class="pontos">43</td>
+            <td>8</td>
+            <td class="pontos">49</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">9º</td>
+            <td id="times"> <img src="imgs/internacional.jpg" alt="" class="icon-escudos">Internacional </td>
+            <td class="pontos"  style="font-weight: bolder">55</td>
+            <td>38</td>
+            <td class="pontos">15</td>
+            <td>10</td>
+            <td class="pontos">13</td>
+            <td>46</td>
+            <td class="pontos">45</td>
+            <td>1</td>
+            <td class="pontos">48</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">10º</td>
+            <td id="times"> <img src="imgs/fortaleza.jpg" alt=""  class="icon-escudos">Fortaleza </td>
+            <td  class="pontos" style="font-weight: bolder">54</td>
+            <td>38</td>
+            <td class="pontos">15</td>
+            <td>9</td>
+            <td class="pontos">14</td>
+            <td>45</td>
+            <td class="pontos">44</td>
+            <td>1</td>
+            <td class="pontos">47</td>
+          </tr>
+
+          <tr>
+            <td id="libertadores">11º</td>
+            <td id="times"> <img src="imgs/sao paulo.jpg" alt="" class="icon-escudos">São Paulo</td>
+            <td  class="pontos" style="font-weight: bolder">53</td>
+            <td>38</td>
+            <td class="pontos">14</td>
+            <td>11</td>
+            <td class="pontos">13</td>
+            <td>40</td>
+            <td class="pontos">38</td>
+            <td>2</td>
+            <td class="pontos">46</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">12º</td>
+            <td id="times"> <img src="imgs/cuiaba.jpg" alt="" class="icon-escudos">Cuiabá</td>
+            <td  class="pontos" style="font-weight: bolder">51</td>
+            <td>38</td>
+            <td class="pontos">14</td>
+            <td>9</td>
+            <td class="pontos">15</td>
+            <td>40</td>
+            <td class="pontos">39</td>
+            <td>1</td>
+            <td class="pontos">44</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">13º</td>
+            <td id="times"> <img src="imgs/cor.jpg" alt="" class="icon-escudos">Corinthians</td>
+            <td  class="pontos" style="font-weight: bolder">50</td>
+            <td>38</td>
+            <td class="pontos">12</td>
+            <td>14</td>
+            <td class="pontos">12</td>
+            <td>47</td>
+            <td class="pontos">48</td>
+            <td>-1</td>
+            <td class="pontos">43</td>
+          </tr>
+
+          <tr>
+            <td id="sulamericana">14º</td>
+            <td id="times"> <img src="imgs/cruzeiro.jpg" alt="" class="icon-escudos">Cruzeiro</td>
+            <td   class="pontos" style="font-weight: bolder">47</td>
+            <td>38</td>
+            <td class="pontos" >11</td>
+            <td>14</td>
+            <td class="pontos" >13</td>
+            <td>35</td>
+            <td class="pontos" >32</td>
+            <td>3</td>
+            <td class="pontos" >41</td>
+          </tr>
+
+          <tr>
+            <td id="manteve">15º</td>
+            <td id="times"> <img src="imgs/vascão.jpg" alt="" class="icon-escudos">Vasco </td>
+            <td class="pontos"  style="font-weight: bolder">45</td>
+            <td>38</td>
+            <td class="pontos" >12</td>
+            <td>9</td>
+            <td class="pontos" >17</td>
+            <td>41</td>
+            <td class="pontos" >51</td>
+            <td>-10</td>
+            <td class="pontos" >39</td> 
+          </tr>
+
+          <tr>
+            <td id="manteve">16º</td>
+            <td id="times"> <img src="imgs/bahia.jpg" alt="" class="icon-escudos">Bahia </td>
+            <td  class="pontos" style="font-weight: bolder">44</td>
+            <td>38</td>
+            <td class="pontos" >12</td>
+            <td>8</td>
+            <td class="pontos" >18</td>
+            <td>50</td>
+            <td class="pontos" >53</td>
+            <td>-3</td>
+            <td class="pontos" >38</td>
+          </tr>
+
+          <tr>
+            <td id="rebaixados">17º</td>
+            <td id="times"> <img src="imgs/santos.jpg" alt="" class="icon-escudos">Santos</td>
+            <td  class="pontos" style="font-weight: bolder">43</td>
+            <td>38</td>
+            <td class="pontos" >11</td>
+            <td>10</td>
+            <td class="pontos" >17</td>
+            <td>39</td>
+            <td class="pontos" >64</td>
+            <td>-25</td>
+            <td class="pontos" >37</td>
+          </tr>
+
+          <tr>
+            <td id="rebaixados">18º</td>
+            <td id="times"> <img src="imgs/goias.jpg" alt="" class="icon-escudos">Goiás</td>
+            <td  class="pontos" style="font-weight: bolder">38</td>
+            <td>38</td>
+            <td class="pontos" >9</td>
+            <td>11</td>
+            <td class="pontos" >18</td>
+            <td>36</td>
+            <td class="pontos" >53</td>
+            <td>-17</td>
+            <td class="pontos" >33</td>
+          </tr>
+
+          <tr>
+            <td id="rebaixados">19º</td>
+            <td id="times"> <img src="imgs/coxa.jpg" alt="" class="icon-escudos">Coritiba</td>
+            <td  class="pontos" style="font-weight: bolder">30</td>
+            <td>38</td>
+            <td class="pontos" >8</td>
+            <td>6</td>
+            <td class="pontos" >24</td>
+            <td>41</td>
+            <td class="pontos" >73</td>
+            <td>-32</td>
+            <td class="pontos" >26</td>
+          </tr>
+
+          <tr>
+            <td id="rebaixados">20º</td>
+            <td id="times"> <img src="imgs/america min.jpg" alt="" class="icon-escudos">América - MG</td>
+            <td  class="pontos" style="font-weight: bolder">24</td>
+            <td>38</td>
+            <td class="pontos">5</td>
+            <td>9</td>
+            <td class="pontos" >24</td>
+            <td>42</td>
+            <td class="pontos">81</td>
+            <td>-39</td>
+            <td class="pontos">21</td>
+          </tr>
+        </tbody>
+    
+
+    </table>
+    
+</body>
+</html>
