@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Color, Range, File</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <div>
+            <label for="iscor">Cor:</label>
+            <input type="color" name="cor" id="iscor" value="#00f00">
+
+        </div>
+
+        <div>
+            <label for="isast">Nível de satisfação</label>
+            <input type="range" name="sast" id="isast" min="1" max="5">
+        </div>
+
+        <div>
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+
+</body>
+</html>
