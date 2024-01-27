@@ -3,4 +3,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: black;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.303);
+    padding: 10px;
 }
